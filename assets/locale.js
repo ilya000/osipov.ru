@@ -7,8 +7,8 @@
       h1: "Ilya Osipov",
       links: "Links",
       social: "Social networks",
-      newSite: "new site",
-      projects: "projects"
+      newSite: "new website",
+      projects: "ventures"
     },
     ru: {
       lang: "ru",
