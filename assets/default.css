@@ -32,9 +32,8 @@ img {
 .menu {
   position: absolute;
   top: 50%;
-  left: 50%;
-  width: 400px;
-  margin-left: -200px;
+  right: 42px;
+  width: 300px;
   margin-top: 122px;
   text-align: right;
   font: 13px "Trebuchet MS", Tahoma, sans-serif;
@@ -46,6 +45,7 @@ img {
   justify-content: flex-end;
   gap: 9px;
   margin-bottom: 8px;
+  width: 100%;
 }
 
 .social a {
@@ -164,5 +164,10 @@ img {
   .site-link,
   .project-links {
     padding-left: 0;
+  }
+
+  .menu {
+    right: 40px;
+    width: 220px;
   }
 }
