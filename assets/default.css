@@ -45,12 +45,24 @@ html[lang="en"] .osipov {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
   margin-left: -200px;
+  width: 360px;
   margin-top: 122px;
   text-align: right;
   font: 13px "Trebuchet MS", Tahoma, sans-serif;
   color: #90c040;
+}
+
+html[lang="ru"] .menu {
+  width: 348px;
+}
+
+html[lang="sr-Latn"] .menu {
+  width: 346px;
+}
+
+html[lang="en"] .menu {
+  width: 360px;
 }
 
 .social {
