@@ -22,9 +22,9 @@
     },
     sr: {
       lang: "sr-Latn",
-      title: "Ilja Osipov",
-      description: "Lični sajt Ilje Osipova.",
-      h1: "Ilja Osipov",
+      title: "Ilija Osipov",
+      description: "Lični sajt Ilije Osipova.",
+      h1: "Ilija Osipov",
       links: "Linkovi",
       social: "Društvene mreže",
       newSite: "novi sajt",
