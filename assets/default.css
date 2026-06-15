@@ -44,8 +44,9 @@ html[lang="en"] .osipov {
 .menu {
   position: absolute;
   top: 50%;
-  right: 42px;
-  width: 300px;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
   margin-top: 122px;
   text-align: right;
   font: 13px "Trebuchet MS", Tahoma, sans-serif;
@@ -87,6 +88,18 @@ html[lang="en"] .osipov {
   margin: 0;
   line-height: 1.45;
   text-shadow: 4px 5px 3px rgba(0, 0, 0, 0.16);
+}
+
+.site-link::before,
+.project-links::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background: url("../img/bull.gif") 0 0 no-repeat;
+  transform: translateY(-1px);
 }
 
 .site-link a,
@@ -179,7 +192,9 @@ html[lang="en"] .osipov {
   }
 
   .menu {
+    left: auto;
     right: 40px;
     width: 220px;
+    margin-left: 0;
   }
 }
