@@ -40,13 +40,14 @@ img {
 .social {
   display: flex;
   justify-content: center;
-  gap: 11px;
+  gap: 9px;
+  padding-left: 80px;
 }
 
 .social a {
   display: inline-flex;
-  width: 19px;
-  height: 19px;
+  width: 17px;
+  height: 17px;
   align-items: center;
   justify-content: center;
   opacity: 0.9;
@@ -60,8 +61,9 @@ img {
 
 .social img {
   display: block;
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
+  filter: drop-shadow(4px 5px 3px rgba(0, 0, 0, 0.2));
 }
 
 .lizzy {
@@ -124,5 +126,9 @@ img {
   .lizzy_funky {
     left: 10%;
     margin-left: 0;
+  }
+
+  .social {
+    padding-left: 95px;
   }
 }
