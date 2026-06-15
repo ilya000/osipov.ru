@@ -49,7 +49,7 @@ img {
   height: 19px;
   align-items: center;
   justify-content: center;
-  opacity: 0.82;
+  opacity: 0.9;
   transition: opacity 0.15s ease, transform 0.15s ease;
 }
 
@@ -62,7 +62,6 @@ img {
   display: block;
   width: 18px;
   height: 18px;
-  filter: brightness(0) saturate(100%) invert(50%) sepia(61%) saturate(704%) hue-rotate(68deg) brightness(92%) contrast(87%);
 }
 
 .lizzy {
