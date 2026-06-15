@@ -33,8 +33,10 @@ img {
   position: absolute;
   top: 50%;
   width: 100%;
-  margin-top: 126px;
+  margin-top: 122px;
   text-align: center;
+  font: 13px "Trebuchet MS", Tahoma, sans-serif;
+  color: #90c040;
 }
 
 .social {
@@ -42,6 +44,7 @@ img {
   justify-content: center;
   gap: 9px;
   padding-left: 80px;
+  margin-bottom: 8px;
 }
 
 .social a {
@@ -64,6 +67,32 @@ img {
   width: 16px;
   height: 16px;
   filter: drop-shadow(4px 5px 3px rgba(0, 0, 0, 0.2));
+}
+
+.site-link,
+.project-links {
+  margin: 0;
+  padding-left: 80px;
+  line-height: 1.45;
+  text-shadow: 4px 5px 3px rgba(0, 0, 0, 0.16);
+}
+
+.site-link a,
+.project-links a {
+  color: #7fac34;
+  text-decoration-color: rgba(127, 172, 52, 0.58);
+  text-underline-offset: 0.18em;
+}
+
+.site-link a:hover,
+.project-links a:hover {
+  color: #90c040;
+  text-decoration: none;
+}
+
+.project-links span {
+  color: #a7c96a;
+  padding: 0 4px;
 }
 
 .lizzy {
@@ -129,6 +158,11 @@ img {
   }
 
   .social {
+    padding-left: 95px;
+  }
+
+  .site-link,
+  .project-links {
     padding-left: 95px;
   }
 }
