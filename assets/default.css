@@ -90,16 +90,19 @@ html[lang="en"] .osipov {
   text-shadow: 4px 5px 3px rgba(0, 0, 0, 0.16);
 }
 
-.site-link::before,
-.project-links::before {
+.line-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.line-text::before {
   content: "";
-  display: inline-block;
+  display: block;
+  flex: 0 0 auto;
   width: 5px;
   height: 5px;
-  margin-right: 10px;
-  vertical-align: middle;
   background: url("../img/bull.gif") 0 0 no-repeat;
-  transform: translateY(-1px);
 }
 
 .site-link a,
