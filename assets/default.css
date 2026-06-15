@@ -17,9 +17,7 @@ body {
 
 body {
   color: var(--ink);
-  background:
-    radial-gradient(circle at 50% 45%, rgba(71, 177, 60, 0.08), transparent 34rem),
-    var(--paper);
+  background: var(--paper);
   font: 18px/1.45 "Trebuchet MS", Tahoma, sans-serif;
 }
 
@@ -30,21 +28,22 @@ body {
   place-items: center;
   overflow: hidden;
   padding: 2rem;
+  padding-top: 1rem;
 }
 
 .card {
   position: relative;
   z-index: 1;
-  width: min(100%, 690px);
+  width: min(100%, 630px);
   text-align: center;
+  transform: translateY(-1rem);
 }
 
 .signature {
   display: block;
-  width: min(100%, 690px);
+  width: min(100%, 630px);
   height: auto;
   margin: 0 auto;
-  filter: drop-shadow(0 18px 16px rgba(0, 0, 0, 0.16));
 }
 
 h1 {
@@ -58,9 +57,10 @@ h1 {
 .links {
   display: flex;
   justify-content: center;
-  gap: 1.25rem;
-  margin-top: 1.6rem;
+  gap: 1.1rem;
+  margin-top: -0.35rem;
   flex-wrap: wrap;
+  font-size: 17px;
 }
 
 .links a {
@@ -76,33 +76,34 @@ h1 {
 .lizzy {
   position: absolute;
   height: auto;
-  opacity: 0.98;
+  opacity: 0.96;
   user-select: none;
   pointer-events: none;
 }
 
 .lizzy-1 {
-  width: 120px;
-  top: 25%;
-  left: 55%;
+  width: 82px;
+  top: calc(50% - 188px);
+  left: calc(50% + 52px);
 }
 
 .lizzy-2 {
-  width: 118px;
-  top: 15%;
-  left: 41%;
+  width: 80px;
+  top: calc(50% - 222px);
+  left: calc(50% - 78px);
 }
 
 .lizzy-3 {
-  width: 116px;
-  top: 18%;
-  left: 28%;
+  width: 78px;
+  top: calc(50% - 194px);
+  left: calc(50% - 194px);
 }
 
 .lizzy-funky {
-  width: 150px;
-  top: 63%;
-  left: 22%;
+  z-index: 2;
+  width: 96px;
+  top: calc(50% + 120px);
+  left: calc(50% - 214px);
 }
 
 @media (max-width: 720px) {
@@ -114,14 +115,23 @@ h1 {
     padding: 1rem;
   }
 
+  .card {
+    transform: translateY(-0.5rem);
+  }
+
+  .links {
+    margin-top: -0.1rem;
+    font-size: 16px;
+  }
+
   .lizzy-1,
   .lizzy-2,
   .lizzy-3 {
-    width: 72px;
+    width: 58px;
   }
 
   .lizzy-funky {
-    width: 96px;
-    left: 10%;
+    width: 76px;
+    left: calc(50% - 160px);
   }
 }
