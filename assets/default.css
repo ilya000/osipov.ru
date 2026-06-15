@@ -32,18 +32,19 @@ img {
 .menu {
   position: absolute;
   top: 50%;
-  width: 100%;
+  left: 50%;
+  width: 400px;
+  margin-left: -200px;
   margin-top: 122px;
-  text-align: center;
+  text-align: right;
   font: 13px "Trebuchet MS", Tahoma, sans-serif;
   color: #90c040;
 }
 
 .social {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 9px;
-  padding-left: 80px;
   margin-bottom: 8px;
 }
 
@@ -72,7 +73,6 @@ img {
 .site-link,
 .project-links {
   margin: 0;
-  padding-left: 80px;
   line-height: 1.45;
   text-shadow: 4px 5px 3px rgba(0, 0, 0, 0.16);
 }
@@ -158,11 +158,11 @@ img {
   }
 
   .social {
-    padding-left: 95px;
+    padding-left: 0;
   }
 
   .site-link,
   .project-links {
-    padding-left: 95px;
+    padding-left: 0;
   }
 }
