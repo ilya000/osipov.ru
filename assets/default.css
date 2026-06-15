@@ -21,7 +21,19 @@ img {
   height: 190px;
   margin-top: -80px;
   overflow: hidden;
-  background: url("../img/io.jpg") top center no-repeat;
+  background: url("../img/io-en.jpg") top center no-repeat;
+}
+
+html[lang="ru"] .osipov {
+  background-image: url("../img/io.jpg");
+}
+
+html[lang="sr-Latn"] .osipov {
+  background-image: url("../img/io-sr.jpg");
+}
+
+html[lang="en"] .osipov {
+  background-image: url("../img/io-en.jpg");
 }
 
 .osipov h1 {
