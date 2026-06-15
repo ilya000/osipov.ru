@@ -33,30 +33,36 @@ img {
   position: absolute;
   top: 50%;
   width: 100%;
-  margin-top: 120px;
+  margin-top: 126px;
   text-align: center;
 }
 
-ul {
-  width: 95px;
-  margin: 0 auto;
-  padding: 0;
-  list-style-type: none;
-  font: 18px "Trebuchet MS", Tahoma, sans-serif;
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 11px;
 }
 
-ul li {
-  padding-left: 15px;
-  text-align: left;
-  background: url("../img/bull.gif") 0 9px no-repeat;
+.social a {
+  display: inline-flex;
+  width: 19px;
+  height: 19px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.82;
+  transition: opacity 0.15s ease, transform 0.15s ease;
 }
 
-ul a {
-  color: #47b13c;
+.social a:hover {
+  opacity: 1;
+  transform: translateY(-1px);
 }
 
-a:hover {
-  text-decoration: none;
+.social img {
+  display: block;
+  width: 18px;
+  height: 18px;
+  filter: brightness(0) saturate(100%) invert(50%) sepia(61%) saturate(704%) hue-rotate(68deg) brightness(92%) contrast(87%);
 }
 
 .lizzy {
