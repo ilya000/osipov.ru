@@ -1,0 +1,127 @@
+:root {
+  color-scheme: light;
+  --accent: #47b13c;
+  --ink: #1f2a20;
+  --paper: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 50% 45%, rgba(71, 177, 60, 0.08), transparent 34rem),
+    var(--paper);
+  font: 18px/1.45 "Trebuchet MS", Tahoma, sans-serif;
+}
+
+.page {
+  position: relative;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 690px);
+  text-align: center;
+}
+
+.signature {
+  display: block;
+  width: min(100%, 690px);
+  height: auto;
+  margin: 0 auto;
+  filter: drop-shadow(0 18px 16px rgba(0, 0, 0, 0.16));
+}
+
+h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 1.6rem;
+  flex-wrap: wrap;
+}
+
+.links a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.links a:hover {
+  text-decoration: none;
+}
+
+.lizzy {
+  position: absolute;
+  height: auto;
+  opacity: 0.98;
+  user-select: none;
+  pointer-events: none;
+}
+
+.lizzy-1 {
+  width: 120px;
+  top: 25%;
+  left: 55%;
+}
+
+.lizzy-2 {
+  width: 118px;
+  top: 15%;
+  left: 41%;
+}
+
+.lizzy-3 {
+  width: 116px;
+  top: 18%;
+  left: 28%;
+}
+
+.lizzy-funky {
+  width: 150px;
+  top: 63%;
+  left: 22%;
+}
+
+@media (max-width: 720px) {
+  body {
+    font-size: 17px;
+  }
+
+  .page {
+    padding: 1rem;
+  }
+
+  .lizzy-1,
+  .lizzy-2,
+  .lizzy-3 {
+    width: 72px;
+  }
+
+  .lizzy-funky {
+    width: 96px;
+    left: 10%;
+  }
+}
