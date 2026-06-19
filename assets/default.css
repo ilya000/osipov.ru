@@ -96,7 +96,8 @@ html[lang="en"] .menu {
 }
 
 .site-link,
-.project-links {
+.project-links,
+.historic-link {
   margin: 0;
   line-height: 1.45;
   text-shadow: 4px 5px 3px rgba(0, 0, 0, 0.16);
@@ -118,14 +119,16 @@ html[lang="en"] .menu {
 }
 
 .site-link a,
-.project-links a {
+.project-links a,
+.historic-link a {
   color: #7fac34;
   text-decoration-color: rgba(127, 172, 52, 0.58);
   text-underline-offset: 0.18em;
 }
 
 .site-link a:hover,
-.project-links a:hover {
+.project-links a:hover,
+.historic-link a:hover {
   color: #90c040;
   text-decoration: none;
 }
@@ -201,7 +204,8 @@ html[lang="en"] .menu {
   }
 
   .site-link,
-  .project-links {
+  .project-links,
+  .historic-link {
     padding-left: 0;
   }
 

@@ -8,7 +8,8 @@
       links: "Links",
       social: "Social networks",
       newSite: "new website",
-      projects: "ventures"
+      projects: "ventures",
+      historicSite: "historic 1997 site"
     },
     ru: {
       lang: "ru",
@@ -18,7 +19,8 @@
       links: "Ссылки",
       social: "Социальные сети",
       newSite: "новый сайт",
-      projects: "проекты"
+      projects: "проекты",
+      historicSite: "исторический сайт 1997 года"
     },
     sr: {
       lang: "sr-Latn",
@@ -28,7 +30,8 @@
       links: "Linkovi",
       social: "Društvene mreže",
       newSite: "novi sajt",
-      projects: "projekti"
+      projects: "projekti",
+      historicSite: "istorijski sajt iz 1997"
     }
   };
 
